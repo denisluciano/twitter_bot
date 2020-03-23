@@ -35,9 +35,11 @@ To deactivate: <br />
     deactivate
 
 Create virtualenv using Python3 <br />
+
     virtualenv -p python3 myenv
 
-Instead of using virtualenv you can use this command in Python3 <br />''
+Instead of using virtualenv you can use this command in Python3 <br />
+
     python3 -m venv myenv 
 
 ## Rotina
