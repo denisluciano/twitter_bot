@@ -25,10 +25,9 @@ user_twitter = '@lBlack_11'
 
 text = "Bot do bom dia! Hoje é dia " + data_sao_paulo_em_texto + ", " + hora_sao_paulo_em_texto + ". Bom dia para todos menos para " + user_twitter
 
-print (text)
 
 try:
-  res = api.update_status(status=texto)
+  res = api.update_status(status=text)
 except tweepy.TweepError as e:
   print (e)
 
