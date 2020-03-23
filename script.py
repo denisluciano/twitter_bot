@@ -12,7 +12,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)          #Logando 
 
 
-texto = "Bom dia para todos menos para "
+texto = "Bom dia para todos menos para @lBlack_11"
 
 # Postando de fato no twitter
 api.update_status(status=texto) 
