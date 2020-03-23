@@ -1,6 +1,6 @@
 # Discord Bot
 ## Como funciona o bot
-- Basicamente usando google cloud eu criei uma vm(virtual machine), usando recurso compute engine. Com isso eu criei uma vm ubuntu 18.04LTS e dentro da vm eu clonei o repositório do projeto, instalei dependencias para criar um abiente virtual do python, configurei uma rotina no crontab para executar comandos bash no arquivo runscript.sh. Com isso é executado meu script.py de tempos em tempos
+- Basicamente usando google cloud(vantagem que ele nos da 1 ano grátis) eu criei uma vm(virtual machine), usando recurso compute engine. Com isso eu criei uma vm ubuntu 18.04LTS e dentro da vm eu clonei o repositório do projeto, instalei dependencias para criar um abiente virtual do python, configurei uma rotina no crontab para executar comandos bash no arquivo runscript.sh. Com isso é executado meu script.py de tempos em tempos
 
 ## virtualenv
 - virtualenv é basicamente para você poder rodar seu python e dependencias de forma isolada, assim se corromper ou algo assim não tem problema, pois está apenas no ambiente.
