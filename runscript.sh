@@ -1,1 +1,1 @@
-python3 script.py
+env/bin/python script.py
