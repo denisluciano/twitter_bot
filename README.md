@@ -11,33 +11,33 @@ Install **pip** first <br />
 
     sudo apt-get install python3-pip
 
-- Then install **virtualenv** using pip3 <br />
+Then install **virtualenv** using pip3 <br />
 
     sudo pip3 install virtualenv 
 
-- Now create a virtual environment  <br />
+Now create a virtual environment  <br />
 
     virtualenv venv 
 
 >you can use any name insted of **venv**
 
-- You can also use a Python interpreter of your choice <br />
+You can also use a Python interpreter of your choice <br />
 
     virtualenv -p /usr/bin/python2.7 venv
   
-- Active your virtual environment: <br />
+Active your virtual environment: <br />
     
     source venv/bin/activate
     
 
-- To deactivate: <br />
+To deactivate: <br />
 
     deactivate
 
-- Create virtualenv using Python3 <br />
+Create virtualenv using Python3 <br />
     virtualenv -p python3 myenv
 
-- Instead of using virtualenv you can use this command in Python3 <br />''
+Instead of using virtualenv you can use this command in Python3 <br />''
     python3 -m venv myenv 
 
 ## Rotina
