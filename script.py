@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-texto = "Test usando crontab"
+texto = "Test2 usando crontab"
 
 consumer_secret = os.getenv('CONSUMER_SECRET')
 consumer_key = os.getenv('CONSUMER_KEY')

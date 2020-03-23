@@ -1,3 +1,1 @@
-source env/bin/activate
-python3 script.py
-touch esseteste.py
+/home/dininhociano/twitter_bot/env/bin/python /home/dininhociano/twitter_bot/script.py
