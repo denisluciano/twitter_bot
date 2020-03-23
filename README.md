@@ -57,5 +57,10 @@ com isso adicionamos uma linha informando o periodo e comando, no nosso caso ser
 Temos sempre que lembrar que no crontab temos que adicionar os diretórios completos paras os arquivos
 
 ## Dependences
+
  - Tweepy
  - python-dotenv
+ - timezone
+
+
+ Essas dependencias é importante verificar se em sua vm elas estão instaladas e caso não esteja instalar. Para verificar um teste é abrir o python no ambiente virtual e tentar fazer import
