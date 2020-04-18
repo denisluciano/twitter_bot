@@ -29,6 +29,8 @@ Active your virtual environment: <br />
     
     source venv/bin/activate
     
+    env\Scripts\activate (windows)
+    
 
 To deactivate: <br />
 
